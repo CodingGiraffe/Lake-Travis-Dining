@@ -16,10 +16,11 @@ video {
 
 video {
     width: 100%;
+    opacity: .6;
 }
 
 .background-vid {
-    opacity: .3;
+    opacity: .4;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
 
 a {
     font-size: 40px;
-    text-decoration: none;
+    text-decoration: underline white;
     color:black;
     font-family: 'Advent Pro';
 }
@@ -48,7 +49,8 @@ nav {
 
 header {
     font-size: 50px;
-    font-family: 'Permanent Marker'
+    font-family: 'Permanent Marker';
+    text-shadow: 2px 2px white;
 }
 
 main {
@@ -66,4 +68,6 @@ main {
 p {
     align-items: center;
     padding: 20px;
+    color:black;
+    text-shadow: 2px 2px white;
 }
