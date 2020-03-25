@@ -169,12 +169,15 @@ p {
         flex-direction: column;
     }
 
-    header {
-        font-size: 25px;
+    .bounce {
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 20px;
     }
 
     a {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     img {
