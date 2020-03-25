@@ -136,6 +136,16 @@ p {
 }
 
 @media (max-width: 576px) {
+    
+    nav {
+        margin-bottom: 200px;
+    }
+
+    .bounce {
+        height: 5px;
+        font-size: 25px;
+    }
+    
     .first {
         display: flex;
         flex-direction: column;
@@ -145,7 +155,11 @@ p {
     .second {
         display: flex;
         flex-direction: column;
-        margin-top: 400px;
+        margin-top: 500px;
+    }
+
+    p {
+        padding: 10px
     }
     
     img {
@@ -169,6 +183,31 @@ p {
     img {
         height: 200px
     }
+
+    footer {
+        display: none;
+    }
+
+    .rights {
+        display: none;
+    }
+
+    .last {
+        font-size: 30px;
+        padding: 5px;
+
+    }
+
+    video { 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        transform: translate(-50%, -50%);
 }
 @media (max-width: 768px) {
       footer {
