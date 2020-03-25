@@ -18,8 +18,8 @@ video {
 header {
     font-size: 80px;
     padding: 40px;
-    color: black;
-    text-shadow: 1px 1px  white;
+    color: white;
+    text-shadow: 5px 5px  black;
     /* border: 5px solid yellow; */
     font-family: 'Permanent Marker';
 }
@@ -35,7 +35,7 @@ header {
 
 section {
     /* border: 5px solid white; */
-    color:black; 
+    color:white; 
     font-size: 30px;
     font-family: 'Permanent Marker';
 }
@@ -55,10 +55,10 @@ nav {
 
 a {
     text-decoration: none;
-    color:black;
+    color:white;
     /* text-shadow: 1px 1px red; */
     font-family: 'Advent Pro';
-    text-decoration: underline white;
+    text-decoration: underline lightgrey;
     font-size: 40px;
 }
 
@@ -78,7 +78,7 @@ video {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color:black;
+    color:white;
 }
 
 img {
@@ -109,7 +109,7 @@ footer {
 }
 
 .company {
-    color:black;
+    color:white;
     font-size: 30px;
 }
 
