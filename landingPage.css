@@ -63,8 +63,7 @@ a {
 }
 
 video {
-    width: 100%;
-    opacity: .4;
+    opacity: .5;
 }
 
 .first {
@@ -145,13 +144,15 @@ p {
     .first {
         display: flex;
         flex-direction: column;
-        margin-top: 200px;
+        margin-top: 300px;
+        margin-right: 30px;
     }
     
     .second {
         display: flex;
         flex-direction: column;
-        margin-top: 500px;
+        margin-top: 700px;
+        margin-right: 30px;
     }
 
     p {
@@ -189,8 +190,7 @@ p {
     }
 
     .last {
-        font-size: 30px;
-        padding: 5px;
+        display: none;
 
     }
 
