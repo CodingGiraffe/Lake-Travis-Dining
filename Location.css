@@ -216,4 +216,13 @@ p {
         flex-direction: column;
         margin-top: 200px;
     }
+
+    .bounce {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
 }
