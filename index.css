@@ -12,14 +12,14 @@ video {
     height: auto;
     z-index: -1000;
     transform: translate(-50%, -50%);
-    /* align-items: center; */
+    opacity: .5;
 }
 
 header {
     font-size: 80px;
     padding: 40px;
     color: white;
-    text-shadow: 5px 5px  black;
+    text-shadow: 3px 3px  black;
     /* border: 5px solid yellow; */
     font-family: 'Permanent Marker';
 }
@@ -62,9 +62,10 @@ a {
     font-size: 40px;
 }
 
-video {
+/* video {
     opacity: .5;
-}
+    width: 100%;
+} */
 
 .first {
     height: 400px;

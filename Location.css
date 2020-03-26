@@ -16,14 +16,14 @@ video {
     height: auto;
     z-index: -1000;
     transform: translate(-50%, -50%);
-    /* align-items: center; */
+    opacity: .5;
 }
 
 header {
     font-size: 80px;
     padding: 40px;
-    color: black;
-    text-shadow: 1px 1px  white;
+    color: white;
+    text-shadow: 3px 3px  black;
     /* border: 5px solid yellow; */
     font-family: 'Permanent Marker';
 }
@@ -39,7 +39,7 @@ header {
 
 section {
     /* border: 5px solid white; */
-    color:black; 
+    color:white; 
     font-size: 20px;
     font-family: 'Permanent Marker';
 }
@@ -59,17 +59,17 @@ nav {
 
 a {
     text-decoration: none;
-    color:black;
+    color:white;
     /* text-shadow: 1px 1px red; */
     font-family: 'Advent Pro';
-    text-decoration: underline white;
+    text-decoration: underline lightgrey;
     font-size: 40px;
 }
 
-video {
+/* video {
     width: 100%;
     opacity: .4;
-}
+} */
 
 .first {
     height: 400px;
@@ -121,7 +121,7 @@ footer {
 i {
     border: 5px solid white;
     padding: 5px;
-    color: black;
+    color: white;
 }
 
 li {
@@ -132,6 +132,7 @@ p {
     text-align: center;
     font-size: 40px;
     font-family: 'Advent Pro';
+    color: white;
 
 }
 

@@ -12,19 +12,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translate(-50%, -50%);
-}
-
-video {
-    width: 100%;
-    opacity: .6;
-}
-
-.background-vid {
-    opacity: .4;
-}
-
-body {
-    background-color: rgb(121, 118, 118, .6);
+    opacity: .5;
 }
 
 .top {
@@ -38,8 +26,8 @@ body {
 
 a {
     font-size: 40px;
-    text-decoration: underline white;
-    color:black;
+    text-decoration: underline lightgrey;
+    color:white;
     font-family: 'Advent Pro';
 }
 
@@ -50,12 +38,13 @@ nav {
 header {
     font-size: 50px;
     font-family: 'Permanent Marker';
-    text-shadow: 2px 2px white;
+    text-shadow: 3px 3px black;
+    color:white;
 }
 
 main {
     /* border: 5px solid red; */
-    color:black;
+    color:white;
     font-size: 45px;
     height: 800px;
     display:flex;
@@ -69,5 +58,21 @@ p {
     align-items: center;
     padding: 20px;
     color:black;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px lightgrey;
+}
+
+@media (max-width: 576px) {
+    .top {
+        display:flex;
+        flex-direction: column;
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+
+    a{
+        font-size: 15px;
+    }
 }
