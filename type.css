@@ -1,0 +1,219 @@
+body {
+    background-color: rgb(121, 118, 118, .6);
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translate(-50%, -50%);
+    opacity: .5;
+}
+
+header {
+    font-size: 70px;
+    padding: 40px;
+    color: white;
+    text-shadow: 3px 3px  black;
+    /* border: 5px solid yellow; */
+    font-family: 'Permanent Marker';
+}
+
+.top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding:20px;
+    /* border: 5px solid red; */
+}
+
+section {
+    /* border: 5px solid white; */
+    color:white; 
+    font-size: 30px;
+    font-family: 'Permanent Marker';
+}
+
+/* .logo {
+    height: 100%
+} */
+
+nav {
+    text-align: center;
+    /* color:blue; */
+    word-spacing: 20px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    /* text-shadow: 1px 1px red; */
+    font-family: 'Advent Pro';
+    text-decoration: underline lightgrey;
+    font-size: 45px;
+}
+
+/* video {
+    opacity: .5;
+    width: 100%;
+} */
+
+.first {
+    height: 400px;
+}
+
+.second {
+    height: 400px;
+}
+
+.three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+img {
+    height: 60%;
+    padding: 20px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 2em;
+}
+
+footer {
+    height: 150px;
+    /* background-color: black; */
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:20px;
+}
+
+.foot {
+    display: flex;
+}
+
+.last {
+    padding: 30px;
+    font-size: 50px;
+}
+
+.company {
+    color:white;
+    font-size: 30px;
+}
+
+i {
+    border: 5px solid white;
+    padding: 5px;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    padding: 30px
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Advent Pro';
+
+}
+
+@media (max-width: 576px) {
+    
+    nav {
+        margin-bottom: 40px;
+    }
+
+    .bounce {
+        height: 5px;
+        font-size: 25px;
+    }
+    
+    .first {
+        display: flex;
+        flex-direction: column;
+        margin-top: 235px;
+        margin-right: 0px;
+    }
+    
+    .second {
+        display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+        margin-right: 0px;
+    }
+
+    p {
+        padding: 2px
+    }
+    
+    img {
+        padding: 5px;
+        height: 50px
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bounce {
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    img {
+        height: 200px
+    }
+
+    footer {
+        display: none;
+    }
+
+    .rights {
+        display: none;
+    }
+
+    .last {
+        display: none;
+
+    }
+
+    video { 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+      footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+}
