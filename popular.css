@@ -22,6 +22,7 @@ header {
 
 .one {
     height: 250px;
+    
 }
 
 img {
@@ -87,7 +88,7 @@ video {
 @media only screen and (max-width: 576px) {
     
     header {
-        font-size: 60px;
+        font-size: 75px;
 
     }
 
