@@ -20,7 +20,7 @@ header {
     
 } */
 
-.austin {
+.one {
     height: 250px;
 }
 
@@ -30,16 +30,20 @@ img {
     border-radius: 100px;
 }
 
-.school {
+.two {
     height: 250px;
 }
 
-.colorado {
+.three {
     height: 250px;
 }
 
-.aca {
+.four {
     height: 250px;
+}
+
+.five {
+    height:250px;
 }
 
 span {
@@ -82,7 +86,7 @@ video {
 @media only screen and (max-width: 576px) {
     
     header {
-        margin-left: 75px;
+        font-size: 60px;
 
     }
 
@@ -91,12 +95,28 @@ video {
       flex-direction: column;
     }
 
-    .austin {
-        /* padding: 50px; */
+    .one {
+        padding: 10px;
     }
 
-    .colorado {
-        /* padding: 80px; */
+    .two {
+        padding: 10px;
+        margin-top: 75px;
+    }
+
+    .three {
+        padding: 10px;
+        margin-top: 100px;
+    }
+
+    .four {
+        padding: 10px;
+        margin-top: 130px;
+    }
+
+    .five {
+        padding: 10px;
+        margin-top: 150px;
     }
 
     p {
@@ -105,15 +125,14 @@ video {
     }
 
     img {
-        margin-left: 75px;
+        height: 200px;
     }
 
     span {
-        margin-right: 50px;
         font-size: 50px;
-        margin-left: -50px;
+        margin-left: -100px;
     }
 
     section:nth-of-type(5) {
-        display: none
+        font-size: 15px;
     }
