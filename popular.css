@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px white;
+    margin-bottom: 75px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    padding: 20px
+}
+
+/* .one {
+    
+} */
+
+.austin {
+    height: 250px;
+}
+
+img {
+    height: 100%;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.school {
+    height: 250px;
+}
+
+.colorado {
+    height: 250px;
+}
+
+.aca {
+    height: 250px;
+}
+
+span {
+    font-size: 60px;
+    margin-right: 50px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: black;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    /* background-color: rgb(13, 65, 13); */
+    height: 150px;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 150px;
+}
+
+video { 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translate(-50%, -50%);
+        opacity: .4;
+}
+@media only screen and (max-width: 576px) {
+    
+    header {
+        margin-left: 75px;
+
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .austin {
+        /* padding: 50px; */
+    }
+
+    .colorado {
+        /* padding: 80px; */
+    }
+
+    p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    img {
+        margin-left: 75px;
+    }
+
+    span {
+        margin-right: 50px;
+        font-size: 50px;
+        margin-left: -50px;
+    }
+
+    section:nth-of-type(5) {
+        display: none
+    }
