@@ -1,7 +1,3 @@
-.main-container {
-
-}
-
 video { 
     position: fixed;
     top: 50%;
@@ -37,7 +33,7 @@ nav {
 
 header {
     font-size: 50px;
-    font-family: 'Permanent Marker';
+    font-family: 'Russo One', sans-serif;
     text-shadow: 3px 3px black;
     color:white;
 }

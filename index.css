@@ -21,7 +21,7 @@ header {
     color: white;
     text-shadow: 3px 3px  black;
     /* border: 5px solid yellow; */
-    font-family: 'Permanent Marker';
+    font-family: 'Russo One', sans-serif;
 }
 
 .top {
@@ -34,19 +34,13 @@ header {
 }
 
 section {
-    /* border: 5px solid white; */
     color:white; 
     font-size: 30px;
-    font-family: 'Permanent Marker';
+    font-family: 'Russo One', sans-serif;
 }
-
-/* .logo {
-    height: 100%
-} */
 
 nav {
     text-align: center;
-    /* color:blue; */
     word-spacing: 20px;
     margin-bottom: 0px;
     font-size: 30px;
@@ -56,16 +50,10 @@ nav {
 a {
     text-decoration: none;
     color:white;
-    /* text-shadow: 1px 1px red; */
     font-family: 'Advent Pro';
     text-decoration: underline lightgrey;
     font-size: 35px;
 }
-
-/* video {
-    opacity: .5;
-    width: 100%;
-} */
 
 .first {
     height: 400px;
@@ -92,7 +80,6 @@ img {
 
 footer {
     height: 150px;
-    /* background-color: black; */
     color: white;
     display:flex;
     align-items: center;
