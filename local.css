@@ -70,41 +70,6 @@ img {
     border-radius: 2em;
 }
 
-footer {
-    height: 150px;
-    /* background-color: black; */
-    color: white;
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding:20px;
-}
-
-.foot {
-    display: flex;
-}
-
-.last {
-    padding: 30px;
-    font-size: 50px;
-}
-
-.company {
-    color:white;
-    font-size: 30px;
-}
-
-i {
-    border: 5px solid white;
-    padding: 5px;
-    color: black;
-}
-
-li {
-    list-style-type: none;
-    padding: 30px
-}
-
 p {
     text-align: center;
     font-size: 40px;
@@ -164,25 +129,5 @@ p {
 
     img {
         height: 200px
-    }
-
-    footer {
-        display: none;
-    }
-
-    .rights {
-        display: none;
-    }
-
-    .last {
-        display: none;
-
-    }
-
-@media (max-width: 768px) {
-      footer {
-        display: flex;
-        flex-direction: column;
-        margin-top: 200px;
     }
 }
