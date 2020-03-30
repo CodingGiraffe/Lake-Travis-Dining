@@ -40,10 +40,10 @@ nav {
 
 a {
     text-decoration: none;
-    color:white;
+    color:black;
     /* text-shadow: 1px 1px red; */
     font-family: 'Advent Pro';
-    text-decoration: underline lightgrey;
+    text-decoration: underline white;
     font-size: 45px;
 }
 

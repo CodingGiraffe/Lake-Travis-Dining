@@ -22,8 +22,8 @@ video {
 
 a {
     font-size: 40px;
-    text-decoration: underline lightgrey;
-    color:white;
+    text-decoration: underline white;
+    color:black;
     font-family: 'Advent Pro';
 }
 
