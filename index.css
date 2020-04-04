@@ -51,6 +51,17 @@ a {
     font-size: 35px;
 }
 
+.intro {
+    font-size: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+    line-height: 200%;
+    margin-bottom: 50px;
+    color:rgb(15, 14, 14)
+}
+
 .first {
     height: 400px;
 }
@@ -129,7 +140,7 @@ p {
     .first {
         display: flex;
         flex-direction: column;
-        margin-top: 235px;
+        margin-top: 315px;
         margin-right: 0px;
     }
     
