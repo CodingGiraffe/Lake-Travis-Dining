@@ -136,6 +136,10 @@ p {
         height: 5px;
         font-size: 25px;
     }
+
+    .intro {
+        line-height: 120%;
+    }
     
     .first {
         display: flex;
