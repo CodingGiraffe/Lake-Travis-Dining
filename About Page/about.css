@@ -74,6 +74,10 @@ p {
     }
 
     main {
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
     }
 }

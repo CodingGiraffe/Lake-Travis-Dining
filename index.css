@@ -143,18 +143,26 @@ p {
         justify-content: center;
         align-items: center;
     }
+
+    #welcome {
+        margin-bottom: 20px;
+    }
+
+    #thanks {
+        margin-top: 20px;
+    }
     
     .first {
         display: flex;
         flex-direction: column;
-        margin-top: 315px;
+        margin-top: 350px;
         margin-right: 0px;
     }
     
     .second {
         display: flex;
         flex-direction: column;
-        margin-top: 600px;
+        margin-top: 620px;
         margin-right: 0px;
     }
 
