@@ -78,6 +78,8 @@ p {
         align-items: center;
         text-align: center;
         margin-right: 10%;
-        margin-left: 20%;
+        margin-left: 10%;
+        border: 5px solid red;
+        width: 80%
     }
 }
