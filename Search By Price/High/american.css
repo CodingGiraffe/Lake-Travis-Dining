@@ -96,14 +96,14 @@ p {
     .first {
         display: flex;
         flex-direction: column;
-        margin-top: 450px;
+        margin-top: 270px;
         margin-right: 0px;
     }
     
     .second {
         display: flex;
         flex-direction: column;
-        margin-top: 900px;
+        margin-top: 650px;
         margin-right: 0px;
     }
 
