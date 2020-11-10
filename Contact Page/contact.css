@@ -77,11 +77,13 @@ input {
 
 button {
     background-color: black;
+    height: 200px;
+    width: 400px;
     border: none;
     color: white;
     padding: 15px 40px;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 20px;
     border: 3px solid white;
     font-family: 'Russo One', sans-serif;
